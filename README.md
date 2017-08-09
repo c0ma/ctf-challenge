@@ -6,8 +6,10 @@ I created robots.txt
       Disallow: /usr
       
 In the folder usr their was a file: usr
-content of usr file:
+content of usr file(a base64 decoder string):
+```
 KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqDQphY3RpdmUgdXNlcnM6DQp6ZXIwZmtpDQprNDVraW8NCg0KZGVhY3RpdmF0ZWQgdXNlcnM6DQpjMG1yYWRlDQpzMGxvDQoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKio=
+```
 ```
 base64 decode:
 >>> base64.b64decode('KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqDQphY3RpdmUgdXNlcnM6DQp6ZXIwZmtpDQprNDVraW8NCg0KZGVhY3RpdmF0ZWQgdXNlcnM6DQpjMG1yYWRlDQpzMGxvDQoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKio=')
